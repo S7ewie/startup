@@ -1,0 +1,40 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url("header.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 200px;
+}
+
+.container .btn-xl {
+  background-color: #f05f44;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.25s;
+}
+
+.container .btn-xl:hover {
+  background-color: #ee4b08;
+  transform: scale(1.05);
+}
